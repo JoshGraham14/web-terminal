@@ -35,12 +35,34 @@ p, h1, h2, h3, h4, h5, h6 {
 
 /* End of reset */
 
+:root {
+	--color-background: rgb(34, 39, 48);
+	--color-white: rgb(253, 229, 184);
+}
+
 body {
 	font-family: 'Fira Code', monospace;
+	background-color: var(--color-background);
+	color: var(--color-white);
+}
+
+.window {
+	width: 100%;
+	padding-left: 1.5em;
 }
 
 .prompt-line {
 	display: flex;
 	align-items: center;
 	gap: 0.5rem;
+}
+
+#prompt {
+	background-color: var(--color-background);
+	color: var(--color-white);
+	border: none;
+}
+
+#prompt:focus {
+	outline: none;
 }
