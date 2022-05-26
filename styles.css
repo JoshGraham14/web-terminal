@@ -61,8 +61,7 @@ body {
 }
 
 .prompt-input {
-	/* background-color: var(--color-background); */
-	background-color: aqua;
+	background-color: var(--color-background);
 	color: var(--color-text);
 	border: none;
 	flex-grow: 1;
