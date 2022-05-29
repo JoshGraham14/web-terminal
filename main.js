@@ -70,4 +70,10 @@ const handleSubmit = command => {
 		lineSpan,
 		termWindow.children[termWindow.children.length - 1]
 	)
+
+	switch (command) {
+		case 'help':
+			helpCommand()
+			break
+	}
 }
